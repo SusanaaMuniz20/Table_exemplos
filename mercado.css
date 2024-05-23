@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(250, 247, 228);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/*Inicio pagina*/
+/* h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+} */
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    background-color:blue;
+    color: aliceblue;
+    border-radius: 10px ;
+    font-family: fantasy;
+
+}
+
+h3{
+    color: rgb(43, 43, 43);
+    text-align: center;
+    font-size: 20px;
+}
+
+th{ 
+    color: crimson;
+}
+
+th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+table{  
+    width: 100%;
+    border-collapse: collapse;
+}
